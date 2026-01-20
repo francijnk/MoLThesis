@@ -34,7 +34,7 @@ python sim_extra.py --mode "sample" --group_round 50 --turnover_round 0 --pop_si
 
 ## Reproducing Experiments
 
-All scripts within the folder can be used to replicate the full experiments.  
+All scripts within the scripts folder can be used to replicate the full experiments.  
 Parameter txt-files can be created using the Jupyter notebook:
 
 ```
