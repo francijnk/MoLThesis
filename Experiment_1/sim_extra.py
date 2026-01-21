@@ -5,7 +5,7 @@ import argparse
 
 from agents import Agent
 from util import Language, normalize_probs, normalize_logprobs, gibbs_sampler, build_hierarchical_graph, create_edge, pick_based_on_age, select_parents
-from math import log, exp, log2
+from math import log
 from collections import defaultdict, Counter
 import pandas as pd
 from tqdm import tqdm
@@ -492,7 +492,6 @@ def main():
     parser.add_argument("--network_type", type=str, required=True)
     parser.add_argument("--replace", type=str2bool, required=True)
     parser.add_argument("--alpha", type=float, required=True)
-    parser.add_argument("--folder", type=int, required=True)
 
 
     args = parser.parse_args()
